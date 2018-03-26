@@ -1,4 +1,3 @@
 $(document).ready(function() {
-  $("loaded").html("jQuery Loaded!");
-
+  $("#loaded").html("jQuery Loaded!");
 });
