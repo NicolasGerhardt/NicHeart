@@ -1,2 +1,3 @@
 # NicHeart
-My Domain hosting
+
+Using Git Hub for some basic blog hosting.
