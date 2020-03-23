@@ -1,12 +1,98 @@
-﻿#logo {
-  background: #f90;
-  color: #fff;
+﻿
+#do-not-use-class-pallet {
+  color:
+#0b0c10
+#1f2833
+#c5c6c7
+#66fcf1
+#45a29e
+}
+
+
+body {
+  background: #0b0c10;
+  color: #45a29e;
   font-family: 'Helvetica', 'Arial', sans-serif;
-  font-size: 2em;
+  font-weight: 400;
+}
+
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: #1f2833;
+}
+
+.clearFix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display:inline-block;
+  margin-left: 70px;
+  padding-top: 20px;
+
+  position: relative;
+}
+
+nav a {
+  color: #45a29e;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+nav a:hover {
+  color: #66fcf1;
+  text-decoration: none;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #66fcf1;
+
+  position: absolute;
+  top: 0;
+
+  transition: ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.logo-container{
+  float: left;
+  padding: 10px 0;
+}
+
+.logo {
+  background: #0b0c10;
+  color: #66fcf1;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
-  width: 20px;
-  height: 20px;
   border-radius: 0px;
   padding: .1em .3em;
 }
