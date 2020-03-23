@@ -7,6 +7,6 @@
   text-align: center;
   width: 20px;
   height: 20px;
-  border-radius: 5px;
-  padding: 2px 8px;
+  border-radius: 0px;
+  padding: .1em .3em;
 }
