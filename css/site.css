@@ -16,7 +16,9 @@ body {
   font-weight: 400;
 }
 
-
+p {
+  color: #c5c6c7;
+}
 
 .container {
   width: 80%;
