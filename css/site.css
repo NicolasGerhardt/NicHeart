@@ -20,6 +20,10 @@ p {
   color: #c5c6c7;
 }
 
+#intro {
+  margin-top: 10px;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -112,6 +116,27 @@ nav a:hover::before {
   margin: 20px;
 }
 
-.card h3 {
+.card .title{
   font-size: x-large;
+  float: left;
+}
+
+.card .date{
+  font-size: initial;
+  float: right;
+}
+
+.card hr{
+  border-color: #66fcf1;
+  margin: 0;
+  padding: 5px 0;
+  width: 60%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 400px;
 }
