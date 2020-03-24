@@ -98,3 +98,9 @@ nav a:hover::before {
   border-radius: 0px;
   padding: .1em .3em;
 }
+
+.image-wrap-text {
+  float: left;
+  margin: 4px 10px 0 0;
+  border: 2px solid #66fcf1;
+}
